@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LA824VF\\OneDrive - EY\\Documents\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {}
+    "C:\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LA824VF\\OneDrive - EY\\Documents\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {
+    "C:\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LA824VF\\OneDrive - EY\\Documents\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+        "projectUniqueName": "C:\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
         "projectName": "StudentAdminPortal.API",
-        "projectPath": "C:\\Users\\LA824VF\\OneDrive - EY\\Documents\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+        "projectPath": "C:\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
         "packagesPath": "C:\\Users\\LA824VF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LA824VF\\OneDrive - EY\\Documents\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\obj\\",
+        "outputPath": "C:\\Practice\\StudentAdminPortal\\StudentAdminPortal.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LA824VF\\AppData\\Roaming\\NuGet\\NuGet.Config",

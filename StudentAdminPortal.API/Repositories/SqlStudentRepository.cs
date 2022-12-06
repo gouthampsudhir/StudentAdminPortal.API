@@ -25,6 +25,38 @@ namespace StudentAdminPortal.API.Repositories
             return await context.Student.Include(nameof(Gender)).Include(nameof(Address))
                 .FirstOrDefaultAsync(x => x.Id == studentId);
         }
+
+        public async Task<List<Gender>> GetGendersAsync()
+        {
+            return await context.Gender.ToListAsync();
+        }
+
+        public async Task<bool> StudentExistsCheck(Guid studentId)
+        {
+            return await context.Student.AnyAsync(x => x.Id == studentId);
+        }
+
+        public async Task<Student> UpdateStudentAsync(Guid studentId, Student request)
+        {
+            var existingStudent = await GetStudentByIdAsync(studentId);
+
+            if (existingStudent != null)
+            {
+                existingStudent.FirstName = request.FirstName;
+                existingStudent.LastName = request.LastName;
+                existingStudent.Email = request.Email;
+                existingStudent.DateOfBirth = request.DateOfBirth;
+                existingStudent.Mobile= request.Mobile;
+                existingStudent.GenderId = request.GenderId;
+                existingStudent.Address.PhysicalAddress = request.Address.PhysicalAddress;
+                existingStudent.Address.PostalAddress = request.Address.PostalAddress;
+
+                await context.SaveChangesAsync();
+                return existingStudent;
+            } 
+
+            return null;
+        }
     }
 
 }

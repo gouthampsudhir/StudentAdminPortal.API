@@ -140,3 +140,6 @@ C:\Practice\StudentAdminPortal\StudentAdminPortal.API\obj\Debug\net5.0\refint\St
 C:\Practice\StudentAdminPortal\StudentAdminPortal.API\obj\Debug\net5.0\StudentAdminPortal.API.pdb
 C:\Practice\StudentAdminPortal\StudentAdminPortal.API\obj\Debug\net5.0\StudentAdminPortal.API.genruntimeconfig.cache
 C:\Practice\StudentAdminPortal\StudentAdminPortal.API\obj\Debug\net5.0\ref\StudentAdminPortal.API.dll
+C:\Practice\StudentAdminPortal\StudentAdminPortal.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Practice\StudentAdminPortal\StudentAdminPortal.API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Practice\StudentAdminPortal\StudentAdminPortal.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
